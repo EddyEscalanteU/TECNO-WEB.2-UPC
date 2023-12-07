@@ -1,0 +1,417 @@
+{
+  "Materias": [
+    {
+      "id": 1,
+      "nombreMateria": "Fundamentos de Ingeniería de Sistemas",
+      "abreviaturaMateria": "FIS"
+    },
+    {
+      "id": 2,
+      "nombreMateria": "Matemáticas Discretas",
+      "abreviaturaMateria": "MATD"
+    },
+    {
+      "id": 3,
+      "nombreMateria": "Programación I",
+      "abreviaturaMateria": "PROG1"
+    },
+    {
+      "id": 4,
+      "nombreMateria": "Estructuras de Datos y Algoritmos",
+      "abreviaturaMateria": "EDA"
+    },
+    {
+      "id": 5,
+      "nombreMateria": "Arquitectura de Computadoras",
+      "abreviaturaMateria": "ARC"
+    },
+    {
+      "id": 6,
+      "nombreMateria": "Sistemas Operativos",
+      "abreviaturaMateria": "SO"
+    },
+    {
+      "id": 7,
+      "nombreMateria": "Bases de Datos",
+      "abreviaturaMateria": "BD"
+    },
+    {
+      "id": 8,
+      "nombreMateria": "Redes de Computadoras",
+      "abreviaturaMateria": "RC"
+    },
+    {
+      "id": 9,
+      "nombreMateria": "Lenguajes de Programación II",
+      "abreviaturaMateria": "PROG2"
+    },
+    {
+      "id": 10,
+      "nombreMateria": "Diseño de Software",
+      "abreviaturaMateria": "DS"
+    },
+    {
+      "id": 11,
+      "nombreMateria": "Metodología de la Investigación",
+      "abreviaturaMateria": "MI"
+    },
+    {
+      "id": 12,
+      "nombreMateria": "Cálculo I",
+      "abreviaturaMateria": "CAL1"
+    },
+    {
+      "id": 13,
+      "nombreMateria": "Cálculo II",
+      "abreviaturaMateria": "CAL2"
+    },
+    {
+      "id": 14,
+      "nombreMateria": "Cálculo III",
+      "abreviaturaMateria": "CAL3"
+    },
+    {
+      "id": 15,
+      "nombreMateria": "Análisis Matemático",
+      "abreviaturaMateria": "ANM"
+    },
+    {
+      "id": 16,
+      "nombreMateria": "Física I",
+      "abreviaturaMateria": "FIS1"
+    },
+    {
+      "id": 17,
+      "nombreMateria": "Física II",
+      "abreviaturaMateria": "FIS2"
+    },
+    {
+      "id": 18,
+      "nombreMateria": "Química General",
+      "abreviaturaMateria": "QUI"
+    },
+    {
+      "id": 19,
+      "nombreMateria": "Ecuaciones Diferenciales",
+      "abreviaturaMateria": "ED"
+    },
+    {
+      "id": 20,
+      "nombreMateria": "Probabilidad y Estadística",
+      "abreviaturaMateria": "PAE"
+    },
+    {
+      "id": 21,
+      "nombreMateria": "Teoría de la Computación",
+      "abreviaturaMateria": "TCO"
+    },
+    {
+      "id": 22,
+      "nombreMateria": "Lenguajes Formales y Automatas",
+      "abreviaturaMateria": "LFA"
+    },
+    {
+      "id": 23,
+      "nombreMateria": "Ingeniería de Software I",
+      "abreviaturaMateria": "ISE1"
+    },
+    {
+      "id": 24,
+      "nombreMateria": "Ingeniería de Software II",
+      "abreviaturaMateria": "ISE2"
+    },
+    {
+      "id": 25,
+      "NombreMateria": "Matemáticas 25",
+      "AbreviaturaMateria": "25"
+    }
+  ],
+  "CARRERAS": {
+    "carreras": [
+      {
+        "id": 1,
+        "nombrecarrera": "Ingeniería de Sistemas",
+        "NombreFacultad": "Facultad de Ciencias de la Ingeniería"
+      },
+      {
+        "id": 2,
+        "nombrecarrera": "Ingeniería Comercial",
+        "NombreFacultad": "Facultad de Ciencias Empresariales"
+      },
+      {
+        "id": 3,
+        "nombrecarrera": "Contaduría Pública",
+        "NombreFacultad": "Facultad de Ciencias Empresariales"
+      },
+      {
+        "id": 4,
+        "nombrecarrera": "Derecho",
+        "NombreFacultad": "Facultad de Ciencias Jurídicas"
+      },
+      {
+        "id": 5,
+        "nombrecarrera": "Educación",
+        "NombreFacultad": "Facultad de Ciencias de la Educación"
+      },
+      {
+        "id": 6,
+        "nombrecarrera": "Administración de Empresas",
+        "NombreFacultad": "Facultad de Ciencias Empresariales"
+      },
+      {
+        "id": 7,
+        "nombrecarrera": "Comercio Internacional",
+        "NombreFacultad": "Facultad de Ciencias Empresariales"
+      },
+      {
+        "id": 8,
+        "nombrecarrera": "Comunicación Social",
+        "NombreFacultad": "Facultad de Ciencias de la Comunicación"
+      },
+      {
+        "id": 9,
+        "nombrecarrera": "Administración Pública",
+        "NombreFacultad": "Facultad de Ciencias Jurídicas"
+      },
+      {
+        "id": 10,
+        "nombrecarrera": "Psicología",
+        "NombreFacultad": "Facultad de Ciencias Sociales"
+      },
+      {
+        "id": 11,
+        "nombrecarrera": "Enfermería",
+        "NombreFacultad": "Facultad de Ciencias de la Salud"
+      },
+      {
+        "id": 12,
+        "nombrecarrera": "Trabajo Social",
+        "NombreFacultad": "Facultad de Ciencias Sociales"
+      },
+      {
+        "id": 13,
+        "nombrecarrera": "Odontología",
+        "NombreFacultad": "Facultad de Ciencias de la Salud"
+      },
+      {
+        "id": 14,
+        "nombrecarrera": "Medicina",
+        "NombreFacultad": "Facultad de Ciencias de la Salud"
+      },
+      {
+        "id": 15,
+        "nombrecarrera": "Derecho Empresarial",
+        "NombreFacultad": "Facultad de Ciencias Jurídicas"
+      },
+      {
+        "id": 16,
+        "nombrecarrera": "Derecho Penal",
+        "NombreFacultad": "Facultad de Ciencias Jurídicas"
+      },
+      {
+        "id": 17,
+        "nombrecarrera": "Derecho Constitucional",
+        "NombreFacultad": "Facultad de Ciencias Jurídicas"
+      }
+    ]
+  },
+  "MATERIAS_CARRERAS": {},
+  "ESTUDIANTES": {
+    "estudiantes": [
+      {
+        "id": 1,
+        "nombreestudiante": "Juan Pérez",
+        "edad": 20,
+        "carrera": "Ingeniería de Sistemas"
+      },
+      {
+        "id": 2,
+        "nombreestudiante": "María López",
+        "edad": 21,
+        "carrera": "Ingeniería Comercial"
+      },
+      {
+        "id": 3,
+        "nombreestudiante": "Pedro García",
+        "edad": 22,
+        "carrera": "Contaduría Pública"
+      },
+      {
+        "id": 4,
+        "nombreestudiante": "Ana Rodríguez",
+        "edad": 23,
+        "carrera": "Derecho"
+      },
+      {
+        "id": 5,
+        "nombreestudiante": "Carlos Flores",
+        "edad": 24,
+        "carrera": "Educación"
+      },
+      {
+        "id": 6,
+        "nombreestudiante": "Daniela Gómez",
+        "edad": 25,
+        "carrera": "Administración de Empresas"
+      },
+      {
+        "id": 7,
+        "nombreestudiante": "Luisa Sánchez",
+        "edad": 26,
+        "carrera": "Comercio Internacional"
+      },
+      {
+        "id": 8,
+        "nombreestudiante": "Andrés González",
+        "edad": 27,
+        "carrera": "Comunicación Social"
+      },
+      {
+        "id": 9,
+        "nombreestudiante": "Sofia Pérez",
+        "edad": 28,
+        "carrera": "Administración Pública"
+      },
+      {
+        "id": 10,
+        "nombreestudiante": "Juan Carlos",
+        "edad": 29,
+        "carrera": "Psicología"
+      },
+      {
+        "id": 11,
+        "nombreestudiante": "Mariana García",
+        "edad": 30,
+        "carrera": "Enfermería"
+      },
+      {
+        "id": 12,
+        "nombreestudiante": "José Luis",
+        "edad": 31,
+        "carrera": "Trabajo Social"
+      },
+      {
+        "id": 13,
+        "nombreestudiante": "Anahí Suárez",
+        "edad": 32,
+        "carrera": "Odontología"
+      },
+      {
+        "id": 14,
+        "nombreestudiante": "Diego Flores",
+        "edad": 33,
+        "carrera": "Medicina"
+      },
+      {
+        "id": 15,
+        "nombreestudiante": "Daniela Rojas",
+        "edad": 34,
+        "carrera": "Derecho Empresarial"
+      }
+    ]
+  },
+  "INSCRITOS": {
+    "inscritos": [
+      {
+        "id": 1,
+        "nombreestudiantesinscritos": "Juan Pérez",
+        "materiaAsignada": "Fundamentos de Ingeniería de Sistemas"
+      },
+      {
+        "id": 2,
+        "nombreestudiantesinscritos": "María López",
+        "materiaAsignada": "Matemáticas Discretas"
+      },
+      {
+        "id": 3,
+        "nombreestudiantesinscritos": "Pedro García",
+        "materiaAsignada": "Programación I"
+      },
+      {
+        "id": 4,
+        "nombreestudiantesinscritos": "Ana Rodríguez",
+        "materiaAsignada": "Estructuras de Datos y Algoritmos"
+      },
+      {
+        "id": 5,
+        "nombreestudiantesinscritos": "Carlos Flores",
+        "materiaAsignada": "Arquitectura de Computadoras"
+      },
+      {
+        "id": 6,
+        "nombreestudiantesinscritos": "Daniela Gómez",
+        "materiaAsignada": "Sistemas Operativos"
+      },
+      {
+        "id": 7,
+        "nombreestudiantesinscritos": "Luisa Sánchez",
+        "materiaAsignada": "Bases de Datos"
+      },
+      {
+        "id": 8,
+        "nombreestudiantesinscritos": "Andrés González",
+        "materiaAsignada": "Redes de Computadoras"
+      },
+      {
+        "id": 9,
+        "nombreestudiantesinscritos": "Sofia Pérez",
+        "materiaAsignada": "Lenguajes de Programación II"
+      },
+      {
+        "id": 10,
+        "nombreestudiantesinscritos": "Juan Carlos",
+        "materiaAsignada": "Diseño de Software"
+      },
+      {
+        "id": 11,
+        "nombreestudiantesinscritos": "Mariana García",
+        "materiaAsignada": "Metodología de la Investigación"
+      },
+      {
+        "id": 12,
+        "nombreestudiantesinscritos": "José Luis",
+        "materiaAsignada": "Cálculo I"
+      },
+      {
+        "id": 13,
+        "nombreestudiantesinscritos": "Anahí Suárez",
+        "materiaAsignada": "Cálculo II"
+      },
+      {
+        "id": 14,
+        "nombreestudiantesinscritos": "Diego Flores",
+        "materiaAsignada": "Cálculo III"
+      },
+      {
+        "id": 15,
+        "nombreestudiantesinscritos": "Daniela Rojas",
+        "materiaAsignada": "Análisis Matemático"
+      },
+      {
+        "id": 16,
+        "nombreestudiantesinscritos": "Carlos Vargas",
+        "materiaAsignada": "Física I"
+      },
+      {
+        "id": 17,
+        "nombreestudiantesinscritos": "María José",
+        "materiaAsignada": "Física II"
+      },
+      {
+        "id": 18,
+        "nombreestudiantesinscritos": "Andrés Suárez",
+        "materiaAsignada": "Química General"
+      },
+      {
+        "id": 19,
+        "nombreestudiantesinscritos": "Sofia Morales",
+        "materiaAsignada": "Ecuaciones Diferenciales"
+      },
+      {
+        "id": 20,
+        "nombreestudiantesinscritos": "Juan Carlos",
+        "materiaAsignada": "Probabilidad y Estadística"
+      }
+    ]
+  }
+}
