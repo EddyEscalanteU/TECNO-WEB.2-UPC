@@ -1,1 +1,11 @@
 <p>pag1 works!</p>
+
+<h2>Responsive Table ESTUDIANTES</h2>
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr *ngFor="let item of estudiantes">
+      <th>{{item.name}}</th>
+    </tr>
+  </table>
+</div>
