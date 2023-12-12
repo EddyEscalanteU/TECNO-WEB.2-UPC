@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class EstudiantesService {
 
-  //public baseUrl = "http://localhost:3000/ESTUDIANTES";
-  public baseUrl = "https://pokeapi.co/api/v2/pokemon/?offset=1000&limit=1000";
+  public baseUrl = "http://localhost:3000/ESTUDIANTES";
+  //public baseUrl = "https://pokeapi.co/api/v2/pokemon/?offset=10&limit=10";
 
   constructor(private httpClient: HttpClient) { }
 
