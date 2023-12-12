@@ -1,12 +1,17 @@
 <p>pag4 works!</p>
 
-<h2>Responsive Table MATERIAS</h2>
+<h2>MATERIAS</h2>
 
 <div style="overflow-x:auto;">
   <table>
     <tr *ngFor="let item of materias">
       <th>{{item.id}}</th>
-      <th>{{item.NombreMateria}}</th>
+      <th>
+        <app-botton-upc
+        [AnchoBoton]="'250px'"
+        [TextoBoton]="item.NombreMateria">
+        </app-botton-upc>
+      </th>
       <th>{{item.AbreviaturaMateria}}</th>
     </tr>
   </table>
