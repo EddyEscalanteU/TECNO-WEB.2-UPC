@@ -1,0 +1,550 @@
+{
+  "MATERIAS": [
+    {
+      "id": 1,
+      "NombreMateria": "Introducción a la Informática",
+      "AbreviaturaMateria": "IINF"
+    },
+    {
+      "id": 2,
+      "NombreMateria": "Matemáticas Discretas",
+      "AbreviaturaMateria": "MATD"
+    },
+    {
+      "id": 3,
+      "NombreMateria": "Lógica de Programación",
+      "AbreviaturaMateria": "LOGP"
+    },
+    {
+      "id": 4,
+      "NombreMateria": "Fundamentos de Programación",
+      "AbreviaturaMateria": "FP"
+    },
+    {
+      "id": 5,
+      "NombreMateria": "Estructuras de Datos y Algoritmos",
+      "AbreviaturaMateria": "EDA"
+    },
+    {
+      "id": 6,
+      "NombreMateria": "Bases de Datos",
+      "AbreviaturaMateria": "BD"
+    },
+    {
+      "id": 7,
+      "NombreMateria": "Programación Orientada a Objetos",
+      "AbreviaturaMateria": "POO"
+    },
+    {
+      "id": 8,
+      "NombreMateria": "Arquitectura de Computadoras",
+      "AbreviaturaMateria": "AC"
+    },
+    {
+      "id": 9,
+      "NombreMateria": "Sistemas Operativos",
+      "AbreviaturaMateria": "SO"
+    },
+    {
+      "id": 10,
+      "NombreMateria": "Lenguajes de Programación",
+      "AbreviaturaMateria": "LP"
+    },
+    {
+      "id": 11,
+      "NombreMateria": "Redes de Computadoras",
+      "AbreviaturaMateria": "RC"
+    },
+    {
+      "id": 12,
+      "NombreMateria": "Electrónica Digital",
+      "AbreviaturaMateria": "ED"
+    },
+    {
+      "id": 13,
+      "NombreMateria": "Circuitos Electrónicos",
+      "AbreviaturaMateria": "CE"
+    },
+    {
+      "id": 14,
+      "NombreMateria": "Teoría de la Información",
+      "AbreviaturaMateria": "TI"
+    },
+    {
+      "id": 15,
+      "NombreMateria": "Inteligencia Artificial",
+      "AbreviaturaMateria": "IA"
+    },
+    {
+      "id": 16,
+      "NombreMateria": "Computacionalismo",
+      "AbreviaturaMateria": "CO"
+    },
+    {
+      "id": 17,
+      "NombreMateria": "Seguridad Informática",
+      "AbreviaturaMateria": "SI"
+    },
+    {
+      "id": 18,
+      "NombreMateria": "Análisis de Sistemas",
+      "AbreviaturaMateria": "AS"
+    },
+    {
+      "id": 19,
+      "NombreMateria": "Diseño de Sistemas",
+      "AbreviaturaMateria": "DS"
+    },
+    {
+      "id": 20,
+      "NombreMateria": "Desarrollo de Software",
+      "AbreviaturaMateria": "DS"
+    },
+    {
+      "id": 21,
+      "NombreMateria": "Gestión de Proyectos de Software",
+      "AbreviaturaMateria": "GPS"
+    },
+    {
+      "id": 22,
+      "NombreMateria": "Introducción22",
+      "AbreviaturaMateria": "IINF22"
+    },
+    {
+      "id": 23,
+      "NombreMateria": "Introducción23",
+      "AbreviaturaMateria": "IINF23"
+    },
+    {
+      "id": 24,
+      "NombreMateria": "Introducción24",
+      "AbreviaturaMateria": "IINF24"
+    },
+    {
+      "id": 25,
+      "NombreMateria": "Introducción225",
+      "AbreviaturaMateria": "IINF225"
+    },
+    {
+      "id": 26,
+      "NombreMateria": "Introducción25",
+      "AbreviaturaMateria": "IINF25"
+    }
+  ],
+  "CARRERAS": [
+    {
+      "id": 1,
+      "NombreCarrera": "Ingeniería en Sistemas",
+      "NombreFacultad": "Facultad de Ciencias Empresariales"
+    },
+    {
+      "id": 2,
+      "NombreCarrera": "Administración de Empresas",
+      "NombreFacultad": "Facultad de Ciencias Empresariales"
+    },
+    {
+      "id": 3,
+      "NombreCarrera": "Contabilidad y Finanzas",
+      "NombreFacultad": "Facultad de Ciencias Empresariales"
+    },
+    {
+      "id": 4,
+      "NombreCarrera": "Comercio Internacional",
+      "NombreFacultad": "Facultad de Ciencias Empresariales"
+    },
+    {
+      "id": 5,
+      "NombreCarrera": "Marketing",
+      "NombreFacultad": "Facultad de Ciencias Empresariales"
+    },
+    {
+      "id": 6,
+      "NombreCarrera": "Derecho",
+      "NombreFacultad": "Facultad de Ciencias Jurídicas"
+    },
+    {
+      "id": 7,
+      "NombreCarrera": "Ciencias Políticas",
+      "NombreFacultad": "Facultad de Ciencias Jurídicas"
+    },
+    {
+      "id": 8,
+      "NombreCarrera": "Derecho Penal",
+      "NombreFacultad": "Facultad de Ciencias Jurídicas"
+    },
+    {
+      "id": 9,
+      "NombreCarrera": "Derecho Civil",
+      "NombreFacultad": "Facultad de Ciencias Jurídicas"
+    },
+    {
+      "id": 10,
+      "NombreCarrera": "Educación",
+      "NombreFacultad": "Facultad de Educación"
+    },
+    {
+      "id": 11,
+      "NombreCarrera": "Psicología",
+      "NombreFacultad": "Facultad de Educación"
+    },
+    {
+      "id": 12,
+      "NombreCarrera": "Pedagogía",
+      "NombreFacultad": "Facultad de Educación"
+    },
+    {
+      "id": 13,
+      "NombreCarrera": "Matemática, Economía y Finanzas",
+      "NombreFacultad": "Facultad de Matemática, Economía y Finanzas"
+    },
+    {
+      "id": 14,
+      "NombreCarrera": "Economía",
+      "NombreFacultad": "Facultad de Matemática, Economía y Finanzas"
+    },
+    {
+      "id": 15,
+      "NombreCarrera": "Administración Financiera",
+      "NombreFacultad": "Facultad de Matemática, Economía y Finanzas"
+    },
+    {
+      "id": 16,
+      "NombreCarrera": "Contabilidad Pública",
+      "NombreFacultad": "Facultad de Matemática, Economía y Finanzas"
+    },
+    {
+      "id": 17,
+      "NombreCarrera": "Ingeniería Civil",
+      "NombreFacultad": "Facultad de Ingeniería"
+    },
+    {
+      "id": 18,
+      "NombreCarrera": "Ingeniería Industrial",
+      "NombreFacultad": "Facultad de Ingeniería"
+    }
+  ],
+  "MATERIA_CARRERA": [
+    {
+      "id": 1,
+      "idMateria": 1,
+      "idCarrera": 1,
+      "Cupo": 20
+    },
+    {
+      "id": 2,
+      "idMateria": 2,
+      "idCarrera": 1,
+      "Cupo": 25
+    },
+    {
+      "id": 3,
+      "idMateria": 3,
+      "idCarrera": 1,
+      "Cupo": 15
+    },
+    {
+      "id": 4,
+      "idMateria": 4,
+      "idCarrera": 1,
+      "Cupo": 20
+    },
+    {
+      "id": 5,
+      "idMateria": 5,
+      "idCarrera": 1,
+      "Cupo": 25
+    },
+    {
+      "id": 6,
+      "idMateria": 6,
+      "idCarrera": 2,
+      "Cupo": 15
+    },
+    {
+      "id": 7,
+      "idMateria": 7,
+      "idCarrera": 2,
+      "Cupo": 20
+    },
+    {
+      "id": 8,
+      "idMateria": 8,
+      "idCarrera": 2,
+      "Cupo": 25
+    },
+    {
+      "id": 9,
+      "idMateria": 9,
+      "idCarrera": 2,
+      "Cupo": 15
+    },
+    {
+      "id": 10,
+      "idMateria": 10,
+      "idCarrera": 2,
+      "Cupo": 20
+    },
+    {
+      "id": 11,
+      "idMateria": 11,
+      "idCarrera": 3,
+      "Cupo": 15
+    },
+    {
+      "id": 12,
+      "idMateria": 12,
+      "idCarrera": 3,
+      "Cupo": 20
+    },
+    {
+      "id": 13,
+      "idMateria": 13,
+      "idCarrera": 3,
+      "Cupo": 25
+    },
+    {
+      "id": 14,
+      "idMateria": 14,
+      "idCarrera": 3,
+      "Cupo": 15
+    },
+    {
+      "id": 15,
+      "idMateria": 15,
+      "idCarrera": 3,
+      "Cupo": 20
+    },
+    {
+      "id": 16,
+      "idMateria": 16,
+      "idCarrera": 4,
+      "Cupo": 15
+    },
+    {
+      "id": 17,
+      "idMateria": 17,
+      "idCarrera": 4,
+      "Cupo": 20
+    },
+    {
+      "id": 18,
+      "idMateria": 18,
+      "idCarrera": 4,
+      "Cupo": 25
+    },
+    {
+      "id": 19,
+      "idMateria": 19,
+      "idCarrera": 4,
+      "Cupo": 15
+    }
+  ],
+  "ESTUDIANTES": [
+    {
+      "id": 1,
+      "NombreEstudiante": "Juan Pérez",
+      "Edad": 20
+    },
+    {
+      "id": 2,
+      "NombreEstudiante": "María López",
+      "Edad": 21
+    },
+    {
+      "id": 3,
+      "NombreEstudiante": "Pedro González",
+      "Edad": 19
+    },
+    {
+      "id": 4,
+      "NombreEstudiante": "Sofía Hernández",
+      "Edad": 22
+    },
+    {
+      "id": 5,
+      "NombreEstudiante": "Carlos Gómez",
+      "Edad": 23
+    },
+    {
+      "id": 6,
+      "NombreEstudiante": "Ana Rodríguez",
+      "Edad": 24
+    },
+    {
+      "id": 7,
+      "NombreEstudiante": "Diego Fernández",
+      "Edad": 25
+    },
+    {
+      "id": 8,
+      "NombreEstudiante": "Luisa Sánchez",
+      "Edad": 18
+    },
+    {
+      "id": 9,
+      "NombreEstudiante": "José Martínez",
+      "Edad": 19
+    },
+    {
+      "id": 10,
+      "NombreEstudiante": "Isabella Castillo",
+      "Edad": 20
+    },
+    {
+      "id": 11,
+      "NombreEstudiante": "Andrés Morales",
+      "Edad": 21
+    },
+    {
+      "id": 12,
+      "NombreEstudiante": "Valentina Rojas",
+      "Edad": 22
+    },
+    {
+      "id": 13,
+      "NombreEstudiante": "Gabriela Silva",
+      "Edad": 23
+    },
+    {
+      "id": 14,
+      "NombreEstudiante": "Alejandro Torres",
+      "Edad": 24
+    },
+    {
+      "id": 15,
+      "NombreEstudiante": "Camila Suárez",
+      "Edad": 25
+    },
+    {
+      "id": 16,
+      "NombreEstudiante": "Daniela Gutiérrez",
+      "Edad": 18
+    },
+    {
+      "id": 17,
+      "NombreEstudiante": "Juan Pablo Calderón",
+      "Edad": 19
+    },
+    {
+      "id": 18,
+      "NombreEstudiante": "María José Gómez",
+      "Edad": 20
+    },
+    {
+      "id": 19,
+      "NombreEstudiante": "Pedro Antonio Fernández",
+      "Edad": 21
+    },
+    {
+      "id": 20,
+      "NombreEstudiante": "Sofía Andrea Hernández",
+      "Edad": 22
+    },
+    {
+      "id": 21,
+      "NombreEstudiante": "Carlos Alberto Gómez",
+      "Edad": 23
+    },
+    {
+      "id": 22,
+      "NombreEstudiante": "Ana María Rodríguez",
+      "Edad": 24
+    },
+    {
+      "id": 23,
+      "NombreEstudiante": "Diego Alejandro Fernández",
+      "Edad": 25
+    },
+    {
+      "id": 24,
+      "NombreEstudiante": "Luisa Fernanda Sánchez",
+      "Edad": 18
+    }
+  ],
+  "INSCRITOS": [
+    {
+      "id": 1,
+      "idEstudiante": 1,
+      "idMateriasCarrera": 1,
+      "FechaInscripcion": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "idEstudiante": 1,
+      "idMateriasCarrera": 2,
+      "FechaInscripcion": "2023-02-01"
+    },
+    {
+      "id": 3,
+      "idEstudiante": 1,
+      "idMateriasCarrera": 3,
+      "FechaInscripcion": "2023-03-01"
+    },
+    {
+      "id": 4,
+      "idEstudiante": 2,
+      "idMateriasCarrera": 4,
+      "FechaInscripcion": "2023-01-02"
+    },
+    {
+      "id": 5,
+      "idEstudiante": 2,
+      "idMateriasCarrera": 5,
+      "FechaInscripcion": "2023-02-02"
+    },
+    {
+      "id": 6,
+      "idEstudiante": 2,
+      "idMateriasCarrera": 6,
+      "FechaInscripcion": "2023-03-02"
+    },
+    {
+      "id": 7,
+      "idEstudiante": 3,
+      "idMateriasCarrera": 7,
+      "FechaInscripcion": "2023-01-03"
+    },
+    {
+      "id": 8,
+      "idEstudiante": 3,
+      "idMateriasCarrera": 8,
+      "FechaInscripcion": "2023-02-03"
+    },
+    {
+      "id": 9,
+      "idEstudiante": 3,
+      "idMateriasCarrera": 9,
+      "FechaInscripcion": "2023-03-03"
+    },
+    {
+      "id": 10,
+      "idEstudiante": 4,
+      "idMateriasCarrera": 10,
+      "FechaInscripcion": "2023-01-04"
+    },
+    {
+      "id": 11,
+      "idEstudiante": 4,
+      "idMateriasCarrera": 11,
+      "FechaInscripcion": "2023-02-04"
+    },
+    {
+      "id": 12,
+      "idEstudiante": 4,
+      "idMateriasCarrera": 12,
+      "FechaInscripcion": "2023-03-04"
+    },
+    {
+      "id": 13,
+      "idEstudiante": 5,
+      "idMateriasCarrera": 13,
+      "FechaInscripcion": "2023-01-05"
+    },
+    {
+      "id": 14,
+      "idEstudiante": 5,
+      "idMateriasCarrera": 14,
+      "FechaInscripcion": "2023-02-05"
+    }
+  ]
+}
