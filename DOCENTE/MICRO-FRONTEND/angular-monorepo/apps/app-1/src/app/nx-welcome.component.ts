@@ -1,10 +1,12 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ProductoComponent } from '@angular-monorepo/producto';
+import { EncabezadoComponent } from '@angular-monorepo/encabezado';
 
 @Component({
   selector: 'angular-monorepo-nx-welcome',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ProductoComponent, EncabezadoComponent],
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -430,10 +432,12 @@ import { CommonModule } from '@angular/common';
       <div class="container">
         <!--  WELCOME  -->
         <div id="welcome">
+          <angular-monorepo-encabezado></angular-monorepo-encabezado>
           <h1>
-            <span> Hello there, </span>
+            <span> Hello, </span>
             Welcome app-1 👋
           </h1>
+          <angular-monorepo-producto></angular-monorepo-producto>
         </div>
         <!--  HERO  -->
         <div id="hero" class="rounded">
