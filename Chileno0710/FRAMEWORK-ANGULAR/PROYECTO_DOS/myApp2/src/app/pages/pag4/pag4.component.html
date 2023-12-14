@@ -1,0 +1,22 @@
+<p>pag4 works!</p>
+
+<h2>MATERIAS</h2>
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr *ngFor="let item of materias">
+      <th>{{item.id}}</th>
+      <th>
+        <app-botton-upc
+        [ngStyle]="{width: '250px;'}"
+        [TextoBoton]="item.NombreMateria">
+        </app-botton-upc>
+      </th>
+      <th>{{item.AbreviaturaMateria}}</th>
+    </tr>
+  </table>
+</div>
+
+<app-titulos [myTitulo]="'PAG. 4'">
+
+</app-titulos>
