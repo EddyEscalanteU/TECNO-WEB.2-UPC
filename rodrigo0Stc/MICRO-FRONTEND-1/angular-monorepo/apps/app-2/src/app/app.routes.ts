@@ -1,0 +1,9 @@
+import { Routes } from '@angular/router';
+import { Pag1Component } from './pages/pag1/pag1.component';
+import { Pag2Component } from './pages/pag2/pag2.component';
+
+export const appRoutes: Routes = [
+  { path: 'pag1', component: Pag1Component },
+  { path: 'pag2', component: Pag2Component },
+];
+

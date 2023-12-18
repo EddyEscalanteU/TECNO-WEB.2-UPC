@@ -1,0 +1,8 @@
+{
+  "universitario":
+   {
+      "nombre":"Estudiante 1", 
+      "carrera":"Ingenieria de Sistemas",
+      "edad":25
+  } 
+}   
