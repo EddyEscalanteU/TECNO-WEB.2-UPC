@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-monorepo/encabezado": ["libs/encabezado/src/index.ts"],
+      "@angular-monorepo/producto": ["libs/producto/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
