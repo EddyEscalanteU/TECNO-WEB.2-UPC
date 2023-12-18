@@ -3,12 +3,12 @@
 <app-titulos [myTitulo]="'Pagina1'">
 
 </app-titulos>
-
     <table>
       <tr *ngFor="let item of estudiantes">
         <th>{{item.id}}</th>
         <th>{{item.NombreEstudiante}}</th>
-        <th>{{item.Edad}}</th>
+        <th> <app-botton-upc [TextoBoton]="item.Edad"></app-botton-upc>
+         </th>
       </tr>
     </table>
   </div>
