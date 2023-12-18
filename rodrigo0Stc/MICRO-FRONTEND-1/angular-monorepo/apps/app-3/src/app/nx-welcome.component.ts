@@ -1,10 +1,11 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { EncabezadoComponent } from '@angular-monorepo/encabezado';
 
 @Component({
   selector: 'angular-monorepo-nx-welcome',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, EncabezadoComponent],
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -434,6 +435,7 @@ import { CommonModule } from '@angular/common';
             <span> Hello there, </span>
             Welcome app-3 👋
           </h1>
+          <angular-monorepo-encabezado></angular-monorepo-encabezado>
         </div>
         <!--  HERO  -->
         <div id="hero" class="rounded">

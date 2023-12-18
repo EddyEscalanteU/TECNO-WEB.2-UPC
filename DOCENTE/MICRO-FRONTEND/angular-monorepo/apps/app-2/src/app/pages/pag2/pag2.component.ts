@@ -1,3 +1,4 @@
+import { AlbumService } from './../../services/album/album.service';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -8,4 +9,23 @@ import { CommonModule } from '@angular/common';
   templateUrl: './pag2.component.html',
   styleUrl: './pag2.component.css',
 })
-export class Pag2Component {}
+export class Pag2Component {
+
+  public listaAlbum : any;
+
+  constructor(private albumService: AlbumService ){
+    this.WebServiceGetAlbum();
+  }
+
+  public WebServiceGetAlbum() {
+    this.albumService.GetAlbums()
+      .subscribe(data => {
+        //console.log("data:", data);
+        this.listaAlbum = data;
+        console.log("this.listaAlbum:", this.listaAlbum);
+      })
+
+  }
+
+
+}
