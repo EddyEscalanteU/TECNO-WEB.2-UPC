@@ -1,0 +1,19 @@
+<p>CONTENIDO DE LA PAG. 1</p>
+
+<app-titulos [myTitulo]="'PAGINA UNO'"></app-titulos>
+<h2>ESTUDIANTES</h2>
+
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr *ngFor="let item of estudiantes">
+      <th>{{item.id }}</th>
+      <th>{{item.NombreEstudiante }}</th>
+      <th>
+        <app-botton-upc [ngStyle]="{width: '50px !important;'}" [TextoBoton]="item.Edad"></app-botton-upc>
+      
+      </th>
+    </tr> 
+  </table>
+</div>
+
