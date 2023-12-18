@@ -1,0 +1,29 @@
+<p>pag4 works!</p>
+<h2> MAERIAS</h2>
+
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+    <tr *ngFor= "let item of materias">
+      <th>{{item.Id}}</th>
+      <th>
+        <app-botton-upc 
+        [AnchoBotton]="'250px'"
+          [TextoBotton]="item.NombreMateria">
+        </app-botton-upc>
+      </th>
+      <th>{{item.AbreviaturaMateria}}</th>
+    
+      
+    </tr>
+  
+    
+  </table>
+</div>
+<app-titulos [myTitulo]="'Pagina Cuatro'">
+
+</app-titulos>
+<span *ngFor="let item of listaUsuario">
+  {{item.name}}
+</span>

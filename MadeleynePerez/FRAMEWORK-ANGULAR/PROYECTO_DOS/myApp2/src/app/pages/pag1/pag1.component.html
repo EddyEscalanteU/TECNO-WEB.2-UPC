@@ -1,0 +1,32 @@
+<p>CONTENIDO DE PAGINA 1</p>
+
+<app-titulos [myTitulo]="'Pagina Uno'">
+
+</app-titulos>
+
+
+<h2>Responsive Table ESTUDIANTES</h2>
+
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+    <tr *ngFor= "let item of estudiantes">
+      <th>{{item.id}}</th>
+      <th>{{item.NombreEstudiante}}</th>
+      <th>
+        <app-botton-upc 
+        [ngStyle]="{width:'50px !important'}"
+        [TextoBotton]="item.Edad">
+      </app-botton-upc>
+       
+        
+      </th>
+     
+    
+      
+    </tr>
+  
+    
+  </table>
+</div>
