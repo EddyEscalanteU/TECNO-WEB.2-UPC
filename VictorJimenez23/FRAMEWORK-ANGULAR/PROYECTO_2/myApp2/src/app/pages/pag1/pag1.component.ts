@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EstudiantesService } from '../../servicios/estudiantes.service';
+import { TitulosComponent } from '../../componetes/titulos/titulos.component';
 
 @Component({
   selector: 'app-pag1',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TitulosComponent],
   templateUrl: './pag1.component.html',
   styleUrl: './pag1.component.scss'
 })
