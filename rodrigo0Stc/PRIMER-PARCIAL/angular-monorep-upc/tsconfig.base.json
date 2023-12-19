@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@angular-monorep-upc/curt": ["libs/curt/src/index.ts"],
+      "@angular-monorep-upc/encabezado": ["libs/encabezado/src/index.ts"],
+      "@angular-monorep-upc/menu": ["libs/menu/src/index.ts"],
+      "@angular-monorep-upc/nave": ["libs/nave/src/index.ts"],
+      "@angular-monorep-upc/producto": ["libs/producto/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

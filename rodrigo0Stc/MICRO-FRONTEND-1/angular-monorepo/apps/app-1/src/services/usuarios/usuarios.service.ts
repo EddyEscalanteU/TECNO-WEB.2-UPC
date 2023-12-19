@@ -6,11 +6,14 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UsuariosService {
-  
+
   public baseUrl = "https://jsonplaceholder.typicode.com/users";
-  public getUsuarios(): Observable<any> {
+
+  constructor(private httpClient: HttpClient) { }
+
+
+  public GetUsuarios(): Observable<any> {
     return this.httpClient.get(this.baseUrl);
   }
 
-  constructor(private httpClient: HttpClient) { }
 }
