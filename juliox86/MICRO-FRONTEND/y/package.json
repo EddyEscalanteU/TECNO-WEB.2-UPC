@@ -1,0 +1,16 @@
+{
+  "name": "@y/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "@nx/angular": "17.2.6"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "~17.0.0",
+    "@nx/workspace": "17.2.6",
+    "nx": "17.2.6",
+    "typescript": "~5.2.2"
+  }
+}
