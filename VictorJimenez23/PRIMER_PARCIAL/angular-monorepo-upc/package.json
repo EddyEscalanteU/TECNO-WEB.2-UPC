@@ -1,0 +1,14 @@
+{
+  "name": "@angular-monorepo-upc/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "angular-monorepo-upc": null
+  },
+  "devDependencies": {
+    "@nx/workspace": "17.2.6",
+    "nx": "17.2.6"
+  }
+}
