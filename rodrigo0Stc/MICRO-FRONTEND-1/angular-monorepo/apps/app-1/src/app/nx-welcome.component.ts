@@ -441,14 +441,13 @@ import { UsuariosService } from '../services/usuarios/usuarios.service';
           <angular-monorepo-producto></angular-monorepo-producto>
         </div>
         <!--  HERO  -->
-        <div *ngfor="let item of listaUsuarios"> 
-            {{item.name}}
-        </div>
-        <div id="hero" class="rounded">
-          <div class="text-container">
-            <h2>
-              <span>You&apos;re up and running</span>
-            </h2>
+        <div *ngFor="let item of listaUsuarios">
+          <div id="hero" class="rounded">
+            <div class="text-container">
+              <h2>
+                <span>{{item.name}} - {{item.email}}</span>
+              </h2>
+            </div>
           </div>
         </div>
         <!--  MIDDLE CONTENT  -->
@@ -868,20 +867,21 @@ nx affected:e2e</pre>
   encapsulation: ViewEncapsulation.None,
 })
 export class NxWelcomeComponent {
-  public listaUsuarios:any;
+ 
+  public listaUsuarios: any;
 
-  constructor(private usuariosService: UsuariosService){
-    this.WebServiceGetUsuarios
-
+  constructor(private usuariosService: UsuariosService) {
+    this.WebServiceGetUsuarios();
   }
-  public WebServiceGetUsuarios(){
-    this.usuariosService.getUsuarios()
-    .subscribe(data => {
-      console.log ("data:", data); 
-      this.listaUsuarios = data;
-      console.log("this.listaUsuarios:",this.listaUsuarios);
-    
-    })
+
+  public WebServiceGetUsuarios() {
+    this.usuariosService.GetUsuarios()
+      .subscribe(data => {
+        console.log("data:", data);
+        this.listaUsuarios = data;
+        console.log("this.listaUsuarios:", this.listaUsuarios);
+      })
+
   }
 
 }
