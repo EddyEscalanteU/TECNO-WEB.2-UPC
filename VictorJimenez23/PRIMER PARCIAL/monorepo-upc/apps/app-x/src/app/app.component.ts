@@ -3,10 +3,10 @@ import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from '@angul
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { CommonModule } from '@angular/common';
 import { MenuMegaComponent } from './libs/menu-mega/menu-mega.component';
-
+import{TablaFiltradoComponent} from'libs/tabla-filtrado/src/lib/tabla-filtrado/tabla-filtrado.component';
 @Component({
   standalone: true,
-  imports: [MenuMegaComponent,CommonModule,NxWelcomeComponent, RouterOutlet, RouterLink, RouterLinkActive, RouterModule],
+  imports: [MenuMegaComponent,CommonModule,NxWelcomeComponent, RouterOutlet, RouterLink, RouterLinkActive, RouterModule,TablaFiltradoComponent],
   selector: 'monorepo-upc-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

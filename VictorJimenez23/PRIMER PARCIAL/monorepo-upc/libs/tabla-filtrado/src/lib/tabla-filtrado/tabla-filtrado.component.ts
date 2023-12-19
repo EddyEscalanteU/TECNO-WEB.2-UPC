@@ -8,4 +8,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './tabla-filtrado.component.html',
   styleUrl: './tabla-filtrado.component.css',
 })
-export class TablaFiltradoComponent {}
+export class TablaFiltradoComponent {
+  
+}

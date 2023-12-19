@@ -10,4 +10,4 @@ import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from '@angul
   templateUrl: './menu-mega.component.html',
   styleUrl: './menu-mega.component.scss',
 })
-export class MenuMegaComponent {}
+export class MenuMegaComponent {}   

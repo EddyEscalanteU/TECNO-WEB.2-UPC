@@ -18,4 +18,6 @@ describe('TablaFiltradoComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  
 });
