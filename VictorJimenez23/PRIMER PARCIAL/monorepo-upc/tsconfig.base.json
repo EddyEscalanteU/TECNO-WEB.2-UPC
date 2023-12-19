@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo-upc/courtainmenu": ["libs/courtainmenu/src/index.ts"],
+      "@monorepo-upc/menu": ["libs/menu/src/index.ts"],
+      "@monorepo-upc/navbar": ["libs/navbar/src/index.ts"],
+      "@monorepo-upc/tabla-filtrado": ["libs/tabla-filtrado/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
