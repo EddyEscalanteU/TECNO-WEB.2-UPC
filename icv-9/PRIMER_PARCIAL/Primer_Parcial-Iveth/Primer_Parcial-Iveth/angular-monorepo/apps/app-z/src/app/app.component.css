@@ -1,0 +1,57 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333; /* Cambio del color de fondo a un tono gris oscuro */
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff; /* Cambio del color del texto a blanco */
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px; /* Reducción del tamaño de fuente */
+  color: #bbb; /* Cambio del color del texto a un tono gris */
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #fff; /* Cambio del color del texto al pasar el mouse a blanco */
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 50px; /* Reducción del tamaño del botón de cierre */
+  color: #fff; /* Cambio del color del botón de cierre a blanco */
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 18px; /* Reducción adicional del tamaño de fuente para pantallas pequeñas */
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
