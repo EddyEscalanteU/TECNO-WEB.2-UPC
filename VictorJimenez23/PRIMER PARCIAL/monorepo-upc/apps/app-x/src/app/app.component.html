@@ -1,11 +1,11 @@
 <monorepo-upc-menu-mega></monorepo-upc-menu-mega>
 <h1>helo</h1>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<input type="text" id="myInput" onkeyup="myFunctionFiltrer()" placeholder="Search for names.." title="Type in a name">
 
 
 <!--<ol>
     <li *ngFor="let item of listadoUsuarios">{{item.name}}</li>
 </ol>-->
 
-<monorepo-upc-tabla-filtrado [columna1]="listadoUsuarios"></monorepo-upc-tabla-filtrado>
+<monorepo-upc-tabla-filtrado [listaColumna]="listadoUsuarios"></monorepo-upc-tabla-filtrado>
 <router-outlet></router-outlet>

@@ -10,7 +10,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './tabla-filtrado.component.css',
 })
 export class TablaFiltradoComponent {
-  @Input() columna1:any;
+  @Input() listaColumna:any;
   @Input() columna2:string="null";
   @Input() columna3:string="null";
 }

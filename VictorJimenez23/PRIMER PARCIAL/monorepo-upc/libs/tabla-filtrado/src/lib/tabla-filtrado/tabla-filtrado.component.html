@@ -1,17 +1,18 @@
+<input type="text" id="myInput" onkeyup="myFunctionFiltrer()" placeholder="Search for names.." title="Type in a name">
 
 <ol>
-    <li *ngFor="let item of columna1">{{item.username}}</li>
+    <li *ngFor="let item of listaColumna">{{item.username}}</li>
 </ol>
 <table>
     <tr>
-        <td *ngFor="let filas of columna1">
+        <td *ngFor="let main of listaColumna">
             
                     <tr>
-                        {{filas.name}}
+                        {{main.name}} 
                         
                     </tr>
   
-                    <tr *ngFor="let d of columna1.values">
+                    <tr *ngFor="let d of main.values">
   
                         <td>
                             {{d.values}}
