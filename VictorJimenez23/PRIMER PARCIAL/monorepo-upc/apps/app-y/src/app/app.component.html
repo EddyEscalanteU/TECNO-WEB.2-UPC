@@ -1,3 +1,15 @@
 <monorepo-upc-nav-bar></monorepo-upc-nav-bar>
-<monorepo-upc-tabla-filtrado></monorepo-upc-tabla-filtrado>
+
+<!--<div *ngFor="let item of listaPost">
+    <div id="hero" class="rounded">
+      <div class="text-container">
+        <h2>
+          <span>{{item.id}} - {{item.title}}</span>
+        </h2>
+      </div>
+    </div>
+  </div>-->
+  
+<monorepo-upc-tabla-filtrado [listaColumnas]="listaCol" [listaFilas]="listaPost"></monorepo-upc-tabla-filtrado>
+
 <router-outlet></router-outlet>

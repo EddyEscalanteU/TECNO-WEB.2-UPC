@@ -1,3 +1,12 @@
-<monorepo-upc-courtain-menu></monorepo-upc-courtain-menu>
-<monorepo-upc-tabla-filtrado></monorepo-upc-tabla-filtrado>
+<monorepo-upc-curtain-menu></monorepo-upc-curtain-menu>
+<!--<div *ngFor="let item of listaComments">
+    <div id="hero" class="rounded">
+      <div class="text-container">
+        <h2>
+          <span>{{item.id}} - {{item.name}}</span>
+        </h2>
+      </div>
+    </div>
+  </div>-->
+<monorepo-upc-tabla-filtrado [listaColumnas]="listaCol" [listaFilas]="listaComments"></monorepo-upc-tabla-filtrado>
 <router-outlet></router-outlet>

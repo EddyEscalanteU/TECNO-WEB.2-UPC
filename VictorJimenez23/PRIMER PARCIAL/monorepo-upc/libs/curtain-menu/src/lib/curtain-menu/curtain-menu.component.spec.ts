@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { CourtainMenuComponent } from './courtain-menu.component';
+import { CurtainMenuComponent } from './curtain-menu.component';
 
-describe('CourtainMenuComponent', () => {
-  let component: CourtainMenuComponent;
-  let fixture: ComponentFixture<CourtainMenuComponent>;
+describe('CurtainMenuComponent', () => {
+  let component: CurtainMenuComponent;
+  let fixture: ComponentFixture<CurtainMenuComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CourtainMenuComponent],
+      imports: [CurtainMenuComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(CourtainMenuComponent);
+    fixture = TestBed.createComponent(CurtainMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

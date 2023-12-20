@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@monorepo-upc/courtainmenu": ["libs/courtainmenu/src/index.ts"],
-      "@monorepo-upc/menu": ["libs/menu/src/index.ts"],
+      "@monorepo-upc/curtain-menu": ["libs/curtain-menu/src/index.ts"],
+      "@monorepo-upc/mega-menu": ["libs/mega-menu/src/index.ts"],
+      "@monorepo-upc/nav-bar": ["libs/nav-bar/src/index.ts"],
       "@monorepo-upc/navbar": ["libs/navbar/src/index.ts"],
       "@monorepo-upc/tabla-filtrado": ["libs/tabla-filtrado/src/index.ts"]
     }

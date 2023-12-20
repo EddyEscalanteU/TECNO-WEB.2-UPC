@@ -10,7 +10,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './tabla-filtrado.component.css',
 })
 export class TablaFiltradoComponent {
-  @Input() listaColumna:any;
-  @Input() columna2:string="null";
-  @Input() columna3:string="null";
+  
+  @Input() listaColumnas: any = ['COLUMNA 1'];
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  @Input() listaFilas: any = [{ id: 1 }, { id: 2}];
 }
