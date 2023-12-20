@@ -1,45 +1,25 @@
-<p>tabla-filtrado works!</p>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
-<table id="myTable">
-  <tr class="header">
-    <th style="width:60%;">Name</th>
-    <th style="width:40%;">Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris specialites</td>
-    <td>France</td>
-  </tr>
+<ol>
+    <li *ngFor="let item of columna1">{{item.username}}</li>
+</ol>
+<table>
+    <tr>
+        <td *ngFor="let filas of columna1">
+            
+                    <tr>
+                        {{filas.name}}
+                        
+                    </tr>
+  
+                    <tr *ngFor="let d of columna1.values">
+  
+                        <td>
+                            {{d.values}}
+                        </td>
+                    </tr>
+  
+                
+        <td>
+  
+    </tr>
 </table>
-
-
-
