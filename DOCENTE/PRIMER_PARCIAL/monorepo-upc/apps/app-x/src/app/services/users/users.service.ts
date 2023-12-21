@@ -8,6 +8,9 @@ import { Observable } from 'rxjs';
 export class UsersService {
 
   public baseUrl = "https://jsonplaceholder.typicode.com/users";
+  public baseUrl1 = "https://jsonplaceholder.typicode.com/albums?_start=0&_limit=5";
+  public baseUrl2 = "https://jsonplaceholder.typicode.com/photos?_start=0&_limit=5";
+  public baseUrl3 = "https://jsonplaceholder.typicode.com/todos?_start=0&_limit=5";
 
   constructor(private httpClient: HttpClient) { }
 
@@ -16,4 +19,15 @@ export class UsersService {
     return this.httpClient.get(this.baseUrl);
   }
 
+  public GetAlbums(): Observable<any> {
+    return this.httpClient.get(this.baseUrl1);
+  }
+
+  public GetPhotos(): Observable<any> {
+    return this.httpClient.get(this.baseUrl2);
+  }
+
+  public GetTodos(): Observable<any> {
+    return this.httpClient.get(this.baseUrl3);
+  }
 }
