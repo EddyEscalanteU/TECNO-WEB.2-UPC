@@ -15,6 +15,7 @@ import { UsersService } from './services/users/users.service';
 export class AppComponent {
   title = 'app-x';
   public ListaUsuarios : any;
+  public ListaCol = ['ID', 'NOMBRE'];
   constructor (private userservice:UsersService){
   } 
   ngOnInit() {

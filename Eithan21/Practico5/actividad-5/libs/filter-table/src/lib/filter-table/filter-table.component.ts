@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,4 +8,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './filter-table.component.html',
   styleUrl: './filter-table.component.css',
 })
-export class FilterTableComponent {}
+export class FilterTableComponent {
+  @Input() ListaColumnas : any = ['ID', 'NOMBREE'];
+  @Input() ListaFilas : any;
+}

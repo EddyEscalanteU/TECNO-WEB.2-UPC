@@ -4,39 +4,10 @@
 
 <table id="myTable">
   <tr class="header">
-    <th style="width:60%;">Name</th>
-    <th style="width:40%;">Country</th>
+    <th *ngFor="let item of ListaColumnas">{{item}} </th>
   </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
+  <tr *ngFor="let itemFila of ListaFilas">
+    <td *ngIf="itemFila.id">{{itemFila.id}}</td>
+    <td *ngIf="itemFila.name">{{itemFila.name}}</td>
+    <td *ngIf="itemFila.title">{{itemFila.title}}</td>
   </tr>
-  <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris specialites</td>
-    <td>France</td>
-  </tr>
-</table>

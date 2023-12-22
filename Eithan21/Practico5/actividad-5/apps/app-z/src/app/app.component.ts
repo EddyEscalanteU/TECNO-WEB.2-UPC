@@ -15,6 +15,7 @@ import { CommentsService } from './services/comments/comments.service';
 export class AppComponent {
   title = 'app-z';
   public ListaComments : any;
+  public ListaCol : any;
   constructor (private CommentsService:CommentsService){
   } 
   ngOnInit() {
