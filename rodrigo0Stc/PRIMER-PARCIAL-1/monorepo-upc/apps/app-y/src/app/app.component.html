@@ -1,0 +1,19 @@
+<monorepo-upc-mobile-navbar></monorepo-upc-mobile-navbar>
+
+<monorepo-upc-filter-list></monorepo-upc-filter-list>
+
+<monorepo-upc-filter-table></monorepo-upc-filter-table>
+
+<div *ngFor="let item of listaPost">
+    <div id="hero" class="rounded">
+      <div class="text-container">
+        <h2>
+          <span>{{item.id}} - {{item.title}}</span>
+        </h2>
+      </div>
+    </div>
+</div>
+
+<monorepo-upc-nx-welcome></monorepo-upc-nx-welcome>
+
+<router-outlet></router-outlet>
