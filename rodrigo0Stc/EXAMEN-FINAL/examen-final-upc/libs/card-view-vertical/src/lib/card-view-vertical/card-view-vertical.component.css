@@ -1,0 +1,8 @@
+.tul_content.benefits.one, .tul_content.benefits.two, .tul_content.benefits.tree, .img {
+    height: auto;
+    width: 500px;
+    grid-row-gap: 0px;
+    background-color: #34e27b;
+    display: block;
+}
+
