@@ -1,0 +1,38 @@
+.wrapper_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002e1a; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+  }
+
+  .section-inf {
+    display: flex;
+    align-items: center;
+  }
+
+  .imagen-block,
+  .head-line {
+    max-width: 48%; /* Ajusta el ancho según tus necesidades */
+    color: #fff;
+  }
+
+  .imagen-block img {
+    width: 100%; /* La imagen ocupa el 100% del contenedor */
+    height: auto; /* Para mantener la proporción de la imagen */
+  }
+
+  .head-text {
+    margin-bottom: 20px; /* Ajusta el margen según tus necesidades */
+  }
+
+  .divider {
+    height: 2px;
+    background-color: #fff; /* Cambia el color del separador según tus preferencias */
+    margin-bottom: 20px; /* Ajusta el margen según tus necesidades */
+  }
+
+  .detail-hero-card {
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta el margen según tus necesidades */
+  }
