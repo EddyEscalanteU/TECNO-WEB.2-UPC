@@ -4,9 +4,12 @@
     <table>
       <tr *ngFor="let item of materias">
         <th>{{item.id}}</th>
-        <th>{{item.NombreMateria}}</th>
+        <th><app-botton-upc [TextoBoton]="item.NombreMateria"></app-botton-upc></th>
         <th>{{item.AbreviaturaMateria}}</th>
       </tr>
     </table>
-  </div>
+
   
+  </div>
+<app-titulos [myTitulo]="'Pag4'"></app-titulos>
+ 

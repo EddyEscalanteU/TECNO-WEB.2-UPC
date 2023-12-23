@@ -1,10 +1,13 @@
 <h2>Angular Menu - Proyecto 2</h2> 
-<nav>
-  <ul>
-    <li><a routerLink="/pag1">Pagina 1</a></li>
-    <li><a routerLink="/pag2">Pagina 2</a></li>
-    <li><a routerLink="/pag3">Pagina 3</a></li>
-    <li><a routerLink="/pag4">Pagina 4</a></li>
-  </ul>
-</nav>
+
+<div class="topnav" id="myTopnav">
+  <a routerLink="/pag1" class="active">Página 1</a>
+  <a routerLink="/pag2">Página 2</a>
+  <a routerLink="/pag3">Página 3</a>
+  <a routerLink="/pag4">Página 4</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 <router-outlet></router-outlet>

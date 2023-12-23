@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@examen-final-upc/card-view-horizontal": [
+        "libs/card-view-horizontal/src/index.ts"
+      ],
+      "@examen-final-upc/card-view-vertical": [
+        "libs/card-view-vertical/src/index.ts"
+      ],
+      "@examen-final-upc/curtain-menu": ["libs/curtain-menu/src/index.ts"],
+      "@examen-final-upc/filter-list": ["libs/filter-list/src/index.ts"],
+      "@examen-final-upc/filter-table": ["libs/filter-table/src/index.ts"],
+      "@examen-final-upc/mega-menu": ["libs/mega-menu/src/index.ts"],
+      "@examen-final-upc/mobile-navbar": ["libs/mobile-navbar/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
