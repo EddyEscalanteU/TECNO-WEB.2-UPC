@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@examen-final/curtain-menu": ["libs/curtain-menu/src/index.ts"],
+      "@examen-final/filter-lists": ["libs/filter-lists/src/index.ts"],
+      "@examen-final/filter-table": ["libs/filter-table/src/index.ts"],
+      "@examen-final/mega-menu": ["libs/mega-menu/src/index.ts"],
+      "@examen-final/mobile-navbar": ["libs/mobile-navbar/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
