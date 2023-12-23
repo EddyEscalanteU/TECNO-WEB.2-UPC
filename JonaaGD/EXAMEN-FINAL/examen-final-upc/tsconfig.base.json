@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@angular-monorepo/Filtrar_tabla": ["libs/Filtrar_tabla/src/index.ts"],
+      "@angular-monorepo/cardview-horizontal": [
+        "libs/cardview-horizontal/src/index.ts"
+      ],
+      "@angular-monorepo/cardview-vertical": [
+        "libs/cardview-vertical/src/index.ts"
+      ],
+      "@angular-monorepo/curtain_menu": ["libs/curtain_menu/src/index.ts"],
+      "@angular-monorepo/filtrar-lista": ["libs/filtrar-lista/src/index.ts"],
+      "@angular-monorepo/mega-menu": ["libs/mega-menu/src/index.ts"],
+      "@angular-monorepo/mobile_navbar": ["libs/mobil_navbar/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
