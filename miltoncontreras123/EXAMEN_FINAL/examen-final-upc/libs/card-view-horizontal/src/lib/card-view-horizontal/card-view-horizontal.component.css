@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgreen;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+    border: solid;
+    border-radius: 30px;
+}
+.image {
+    width: 45%;
+    height: auto;
+    border-radius: 30px;
+}
+.text {
+    width: 45%;
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+p {
+    color: rgb(245, 245, 245);
+}
+.statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.statistic {
+    color: white;
+}
