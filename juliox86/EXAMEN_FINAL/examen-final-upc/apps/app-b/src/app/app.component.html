@@ -1,0 +1,20 @@
+<examen-final-upc-mega-menu></examen-final-upc-mega-menu>
+
+<examen-final-upc-filter-table [listaColumnas]="listaCol" [listaFilas]="listaUsuarios"></examen-final-upc-filter-table>
+
+<div *ngFor="let item of listaUsuarios">
+    <div id="hero" class="rounded">
+        <div class="text-container">
+            <h2> 
+                <span>{{item.id}} - {{item.email}}</span>
+            </h2>
+        </div>
+    </div>
+</div>
+
+
+<examen-final-upc-filter-list></examen-final-upc-filter-list>
+<examen-final-upc-card-view-vertical></examen-final-upc-card-view-vertical>
+<examen-final-upc-card-view-horizontal></examen-final-upc-card-view-horizontal>
+<examen-final-upc-nx-welcome></examen-final-upc-nx-welcome>
+<router-outlet></router-outlet>

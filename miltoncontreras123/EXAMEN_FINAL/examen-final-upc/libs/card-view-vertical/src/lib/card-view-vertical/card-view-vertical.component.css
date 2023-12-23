@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    border: solid;
+    border-radius: 30px;
+}
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+p {
+    text-align: center;
+}

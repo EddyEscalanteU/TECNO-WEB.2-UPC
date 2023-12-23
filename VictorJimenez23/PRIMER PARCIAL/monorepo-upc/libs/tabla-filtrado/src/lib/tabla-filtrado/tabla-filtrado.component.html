@@ -1,0 +1,39 @@
+<input type="text" id="myInput" onkeyup="myFunctionFiltrer()" placeholder="Search for names.." title="Type in a name">
+
+<!--<ol>
+    <li *ngFor="let item of listaColumnas">{{item.username}}</li>
+</ol>
+<table>
+    <tr>
+        <td *ngFor="let main of listaColumnas">
+            
+                    <tr>
+                        {{main.name}} 
+                        
+                    </tr>   
+  
+                    <tr *ngFor="let d of main.values">
+  
+                        <td>
+                            {{d.values}}
+                        </td>
+                    </tr>
+  
+                
+        <td>
+  
+    </tr>
+</table>-->
+<table id="myTable">
+
+    <tr class="header">
+      <th style="width:60%;" *ngFor="let item of listaColumnas">{{item}}</th>
+    </tr>
+  
+  
+    <tr *ngFor="let itemFila of listaFilas">
+      <td>{{itemFila.id}}</td>
+      <td *ngIf="itemFila.name">{{itemFila.name}}</td>
+      <td *ngIf="itemFila.email">{{itemFila.email}}</td>
+      <td *ngIf="itemFila.title">{{itemFila.title}}</td>
+    </tr>
