@@ -1,0 +1,14 @@
+<monorepo-upc-curtain-menu></monorepo-upc-curtain-menu>
+<monorepo-upc-filter-table [listaColumnas]="listaCol"[listaFilas]="listaComments"></monorepo-upc-filter-table>
+
+<div *ngFor="let item of listaComments">
+    <div id="hero" class="rounded">
+        <div class="text-container">
+            <h2> 
+                <span>{{item.id}} - {{item.name}}</span>
+            </h2>
+        </div>
+    </div>
+</div>
+<monorepo-upc-nx-welcome></monorepo-upc-nx-welcome>
+<router-outlet></router-outlet>
