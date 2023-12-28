@@ -1,0 +1,59 @@
+body {
+  
+  f
+font-family: Arial, sans-serif;
+  
+  bac
+background-color: navy;
+  color: yellow;
+}
+
+.container {
+  
+  wi
+width: 80%;
+  margin: auto;
+  display: flex;
+  
+  justify-conte
+justify-content: space-between;
+  
+ 
+background-color: navy;
+  border: solid;
+  border-radius: 30px;
+}
+
+.image {
+  
+  
+width: 45%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.text {
+  
+  widt
+width: 45%;
+}
+
+h1 {
+  color: rgb(255, 255, 0);
+}
+
+p {
+  color: rgb(240, 240, 0);
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.statistic {
+  color: yellow;
+}
+}
