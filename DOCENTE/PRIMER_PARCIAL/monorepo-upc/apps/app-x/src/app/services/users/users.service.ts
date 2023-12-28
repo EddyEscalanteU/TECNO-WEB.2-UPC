@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class UsersService {
 
   public baseUrl = "https://jsonplaceholder.typicode.com/users";
-  public baseUrl1 = "https://jsonplaceholder.typicode.com/albums?_start=0&_limit=5";
+  public baseUrl1 = "https://jsonplaceholder.typicode.com/halbums?_start=0&_limit=5";
   public baseUrl2 = "https://jsonplaceholder.typicode.com/photos?_start=0&_limit=5";
   public baseUrl3 = "https://jsonplaceholder.typicode.com/todos?_start=0&_limit=5";
 
