@@ -1,0 +1,7 @@
+<h1>FILTER LIST</h1>
+
+<input type="text" id="myInput1" onkeyup="myFunction1()" placeholder="Search for names.." title="Type in a name">
+
+<ul *ngFor="let itemFila of ListaFilas" id="myUL">
+    <li><a href=""> {{itemFila.id}} - {{itemFila.first_name}}</a></li>
+  </ul>

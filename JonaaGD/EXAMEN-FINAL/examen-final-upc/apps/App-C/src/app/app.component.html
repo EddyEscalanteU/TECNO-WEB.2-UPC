@@ -1,0 +1,23 @@
+<angular-monorepo-mobile-navbar></angular-monorepo-mobile-navbar>
+
+<angular-monorepo-filtrar-tabla></angular-monorepo-filtrar-tabla>
+<angular-monorepo-filtrar-lista></angular-monorepo-filtrar-lista>
+
+
+<div *ngFor="let item of listaUsuario">   
+   
+    <div id="hero" class="rounded">
+      <div class="text-container">
+        <h2>
+        <span>{{item.email}}-{{item.first_name}}    </span>           
+        </h2> 
+       </div>   
+      </div>
+    </div>
+
+
+
+    <angular-monorepo-cardview-horizontal></angular-monorepo-cardview-horizontal>
+
+<angular-monorepo-nx-welcome></angular-monorepo-nx-welcome>
+<router-outlet></router-outlet>

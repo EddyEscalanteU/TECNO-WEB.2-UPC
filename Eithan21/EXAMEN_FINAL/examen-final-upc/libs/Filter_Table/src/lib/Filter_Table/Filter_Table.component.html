@@ -1,0 +1,17 @@
+<h1>FILTER TABLE</h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+    <tr class="header">
+        <th *ngFor="let item of ListaColumnas">{{item}} </th>
+    </tr>
+    <tr *ngFor="let itemFila of ListaFilas">
+        <td *ngIf="itemFila.id">{{itemFila.id}}</td>
+        <td *ngIf="itemFila.name">{{itemFila.name}}</td>
+        <td *ngIf="itemFila.title">{{itemFila.title}}</td>
+        <td *ngIf="itemFila.first_name">{{itemFila.first_name}}</td>
+        <td *ngIf="itemFila.last_name">{{itemFila.last_name}}</td>
+        <td *ngIf="itemFila.email">{{itemFila.email}}</td>
+    </tr>
+    

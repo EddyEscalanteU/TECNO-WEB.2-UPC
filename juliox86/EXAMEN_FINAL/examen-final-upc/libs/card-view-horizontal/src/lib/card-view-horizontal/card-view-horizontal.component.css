@@ -1,0 +1,25 @@
+.firstName:after {
+    background-image: url("https://assets-global.website-files.com/6317bc1b5fff7dde9f3b4156/6452991584ef3d811842df6c_tul-app_wireframe.png");
+}
+
+
+
+.red, .yellow, .green {
+    display: inline-block;
+    border-radius: 100px;
+    padding: 100px;
+}
+
+.red {
+    background-color: #E94F37;
+    color: white;
+}
+
+.yellow {
+    background-color: #FFEE93;
+}
+
+.green {
+    background-color: #63C7B2;
+    color: white;
+}
